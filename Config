@@ -1,0 +1,12 @@
+curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
+source ~/.bashrc
+
+ sudo apt update && sudo apt upgrade -y 
+
+ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh ( Type 1 enter )
+
+ source $HOME/.cargo/env
+
+ soundnessup install  # Install the CLI
+
+ soundness-cli generate-key --name my-key enter your password ( Save your public key & phrase ) 
